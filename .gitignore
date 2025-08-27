@@ -10,6 +10,7 @@ crash.log
 crash.*.log
 # Sensitive variable files
 *.tfvars
+!example.tfvars
 # Override files for local development
 override.tf
 override.tf.json
