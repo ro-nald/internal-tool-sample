@@ -42,3 +42,4 @@ From there, you can apply the Terraform configuration.
 - Create Service Principal for a CI/CD pipeline (e.g. GitHub Actions) to be able to run Terraform plan, and use RBAC to only allow resource creation on the subscription from this Service Principal.
 - Create a separate pipeline to delete resources using the Service Prinicpal
 - Add Application Insights
+- Add monitoring for cost controls to view expenditure and any long-running resources if the internal tool is intended for time-limited experiments rather than production deployment
